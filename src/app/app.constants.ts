@@ -1,0 +1,67 @@
+export const Constants = {
+  cameras: [
+    {
+      name: 'Front Hazard Avoidance Camera',
+      code: 'FHAZ',
+      curiosity: true,
+      opportunity: true,
+      spirit: true,
+    },
+    {
+      name: 'Rear Hazard Avoidance Camera',
+      code: 'RHAZ',
+      curiosity: true,
+      opportunity: true,
+      spirit: true,
+    },
+    {
+      name: 'Mast Camera',
+      code: 'MAST',
+      curiosity: true,
+      opportunity: false,
+      spirit: false,
+    },
+    {
+      name: 'Chemistry and Camera Complex',
+      code: 'CHEMCAM',
+      curiosity: true,
+      opportunity: false,
+      spirit: false,
+    },
+    {
+      name: 'Mars Hand Lens Imager',
+      code: 'MAHLI',
+      curiosity: true,
+      opportunity: false,
+      spirit: false,
+    },
+    {
+      name: 'Mars Descent Imager',
+      code: 'MARDI',
+      curiosity: true,
+      opportunity: false,
+      spirit: false,
+    },
+    {
+      name: 'Navigation Camera',
+      code: 'NAVCAM',
+      curiosity: true,
+      opportunity: true,
+      spirit: true,
+    },
+    {
+      name: 'Panoramic Camera',
+      code: 'PANCAM',
+      curiosity: false,
+      opportunity: true,
+      spirit: true,
+    },
+    {
+      name: 'Miniature Thermal Emission Spectrometer',
+      code: 'MINITES',
+      curiosity: false,
+      opportunity: true,
+      spirit: true,
+    },
+  ],
+};
